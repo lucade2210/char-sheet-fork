@@ -9,33 +9,20 @@
   "conditions": [],
   "hitPoints": 25,
   "rage": {
-    "active": true,
-    "usedCharges": 1
+    "active": false,
+    "usedCharges": 0
   },
   "recklessAttack": {
-    "active": true
+    "active": false
   },
   "relentlessEnduranceUsed": false,
-  "resistance": {
-    "rage": [
-      "bludgeoning",
-      "piercing",
-      "slashing"
-    ]
-  },
+  "resistance": {},
   "saveAdvantages": {
     "dangerSense": [
       "DEX"
-    ],
-    "rage": [
-      "STR"
     ]
   },
   "skillAdvantages": {},
   "spentHitDice": 0,
-  "statAdvantages": {
-    "rage": [
-      "STR"
-    ]
-  }
+  "statAdvantages": {}
 }
