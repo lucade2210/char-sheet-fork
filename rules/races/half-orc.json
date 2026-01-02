@@ -1,0 +1,24 @@
+{
+  "name": "Half-Orc",
+  "abilityBonuses": {
+    "STR": 2,
+    "CON": 1
+  },
+  "features": [
+    {
+      "id": "darkvision",
+      "name": "Darkvision",
+      "description": "You can see in dim light within 60 feet as if it were bright light."
+    },
+    {
+      "id": "relentless_endurance",
+      "name": "Relentless Endurance",
+      "description": "Once per long rest, when reduced to 0 HP but not killed outright, drop to 1 HP instead."
+    },
+    {
+      "id": "savage_attacks",
+      "name": "Savage Attacks",
+      "description": "When you score a critical hit with a melee weapon attack, roll one extra damage die."
+    }
+  ]
+}

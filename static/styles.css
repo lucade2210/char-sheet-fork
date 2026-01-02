@@ -1,0 +1,115 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+input {
+    margin: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+/* Desktop view: show all sections, hide tabs */
+.tabs {
+    display: none;
+    margin-bottom: 10px;
+}
+
+.section {
+    display: block;
+}
+
+/* Mobile view: use tabs */
+@media (max-width: 700px) {
+
+    /* tabs are visible */
+    .tabs {
+        display: flex;
+        gap: 5px;
+        overflow-x: auto;
+        border-bottom: 2px solid #444;
+    }
+
+    .tabs button {
+        flex: 1;
+        padding: 10px;
+        font-size: 1rem;
+        background: #eee;
+        border: none;
+        border-radius: 5px 5px 0 0;
+    }
+
+    /* hide all sections by default */
+    .section {
+        display: none;
+    }
+
+    /* show active section */
+    .section.active {
+        display: block;
+        padding-top: 10px;
+    }
+}
+
+/* each stat box */
+.stat-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/* stat name */
+.stat-name {
+    font-weight: bold;
+    margin-bottom: 4px;
+    font-size: 1.1em;
+}
+
+/* modifier field */
+.stat-mod {
+    width: 50px;
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 4px;
+}
+
+/* base value */
+.stat-base {
+    width: 50px;
+    text-align: center;
+}
+
+input[readonly] {
+    background: #f5f5f5;
+    color: #333;
+    cursor: default;
+}
+
+.attack-row {
+    display: flex;
+}
+
+.attack-header {
+    flex: 1;
+    padding: 10px;
+}
+
+/* .hp-row {
+    display: flex;
+}
+
+.hp-value {
+    flex: 1;
+} */

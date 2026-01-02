@@ -1,0 +1,60 @@
+{
+  "name": "Karrouck",
+  "race": "half-orc",
+  "class": "barbarian",
+  "background": "soldier",
+  "level": 3,
+  "stats": {
+    "STR": {
+      "base": 16
+    },
+    "DEX": {
+      "base": 13
+    },
+    "CON": {
+      "base": 15
+    },
+    "INT": {
+      "base": 10
+    },
+    "WIS": {
+      "base": 11
+    },
+    "CHA": {
+      "base": 12
+    }
+  },
+  "attacks": [
+    {
+      "name": "Greataxe",
+      "toHitStat": "STR",
+      "damageDice": "1d12",
+      "damageType": "slashing",
+      "weaponTypes": [
+        "martial",
+        "melee"
+      ]
+    },
+    {
+      "name": "Handaxe",
+      "toHitStat": "STR",
+      "damageDice": "1d6",
+      "damageType": "slashing",
+      "weaponTypes": [
+        "simple",
+        "melee"
+      ]
+    },
+    {
+      "name": "Javelin",
+      "toHitStat": "STR",
+      "damageDice": "1d6",
+      "damageType": "piercing",
+      "weaponTypes": [
+        "simple",
+        "melee"
+      ]
+    }
+  ],
+  "maxHitPoints": 25
+}

@@ -1,0 +1,41 @@
+{
+  "combat": {
+    "attackLastRound": true,
+    "bonusAction": false,
+    "damageLastRound": false,
+    "inCombat": true,
+    "initiative": 18
+  },
+  "conditions": [],
+  "hitPoints": 25,
+  "rage": {
+    "active": true,
+    "usedCharges": 1
+  },
+  "recklessAttack": {
+    "active": true
+  },
+  "relentlessEnduranceUsed": false,
+  "resistance": {
+    "rage": [
+      "bludgeoning",
+      "piercing",
+      "slashing"
+    ]
+  },
+  "saveAdvantages": {
+    "dangerSense": [
+      "DEX"
+    ],
+    "rage": [
+      "STR"
+    ]
+  },
+  "skillAdvantages": {},
+  "spentHitDice": 0,
+  "statAdvantages": {
+    "rage": [
+      "STR"
+    ]
+  }
+}

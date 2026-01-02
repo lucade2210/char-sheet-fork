@@ -1,0 +1,9 @@
+{
+  "name": "Soldier",
+  "proficiency": {
+    "skills": [
+      "athletics",
+      "intimidation"
+    ]
+  }
+}
